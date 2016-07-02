@@ -1,0 +1,11 @@
+NOMARKDOWN
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>PAGE_TITLE</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+END_NOMARKDOWN
+
+<h1>PAGE_TITLE</h1>
