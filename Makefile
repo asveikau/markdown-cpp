@@ -33,7 +33,7 @@ clean:
 	sed 's/^ *#  */MARKDOWN_POUND/' | \
         (include=`pwd`/include &&         \
 	 cd `dirname $<` &&               \
-	 cpp -undef -I$$include) |        \
+	 cpp -C -undef -I$$include) |     \
 	grep -v '^# *[0-9]* \"' |         \
 	sed 's/^MARKDOWN_POUND/# /' |     \
 	perl markdown-filter.pl           \
